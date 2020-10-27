@@ -18,5 +18,9 @@ public class Book {
 
 	@Column(nullable = false)
 	private String autor;
+	
+	public Long getId() {
+		return id;
+	}
 
 }
