@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.danilson.appspringboot.exceptions.BookIdNotFoundException;
+import com.danilson.appspringboot.exceptions.BookNotFoundException;
 import com.danilson.appspringboot.model.Book;
 import com.danilson.appspringboot.repositories.BookRepository;
 
