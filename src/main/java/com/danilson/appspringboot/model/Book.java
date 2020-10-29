@@ -18,6 +18,17 @@ public class Book {
 
 	@Column(nullable = false)
 	private String author;
+	
+	
+
+	public Book() {
+	}
+
+	public Book(String title, String author) {
+		super();
+		this.title = title;
+		this.author = author;
+	}
 
 	public long getId() {
 		return id;
